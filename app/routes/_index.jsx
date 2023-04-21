@@ -2,7 +2,7 @@
 
 function Index() {
     return (
-        <div>desde index.jsx</div>
+        <h1>Hey Dev!!</h1>
     )
 }
 
