@@ -1,5 +1,10 @@
-import { Meta, Links, Outlet } from "@remix-run/react";
-import styles from './styles/index.css';
+import { 
+    Meta, 
+    Links, 
+    Outlet 
+} from '@remix-run/react';
+import styles from '~/styles/index.css';
+import Header from '~/components/header';
 
 
 
@@ -56,6 +61,7 @@ function Document({ children }) {
             </head>
 
             <body>
+                <Header />
                 {children}
             </body>
         </html>
