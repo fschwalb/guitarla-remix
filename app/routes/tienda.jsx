@@ -21,7 +21,7 @@ function Tienda() {
                 <div className="guitarras-grid">
                     {guitarras.map( guitarra => (
                         <Guitarra 
-                            key={guitarra.id}
+                            key={guitarra}
                             guitarra={guitarra}
                         />
                     ))}
