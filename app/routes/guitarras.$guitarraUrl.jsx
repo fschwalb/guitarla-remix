@@ -2,7 +2,7 @@
 
 function Guitarra() {
   return (
-    <div>guitarraUrl</div>
+    <div>estoy en guitarraUrl</div>
   )
 }
 
